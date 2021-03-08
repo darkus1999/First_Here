@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { StyleSheet, Text, View, ImageBackground } from 'react-native';
 import { Avatar, Appbar, Button, TextInput } from 'react-native-paper';
-import avLoginP from '../assets/avloginp.png';
-import BgLoginP from '../assets/bgloginp.png';
+import avLoginP from '../../assets/avloginp.png';
+import BgLoginP from '../../assets/bgloginp.png';
 
 const Loginpeople = () => {
     const [text, setText] = React.useState('');
@@ -93,4 +93,4 @@ const Loginpeople = () => {
     },
   });
 
-  export default Loginpeople;
+  export  {Loginpeople};
